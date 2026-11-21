@@ -1,0 +1,21 @@
+# COMMANDES.md
+
+- `node --version` : Vérifier la version de Node.js.
+- `npm --version` : Vérifier la version de npm.
+- `git --version` : Vérifier la version de Git.
+- `git config --global user.name "Fadi Chraiti"` : Configurer son nom Git.
+- `git config --global user.email "fadi365cm@gmail.com"` : Configurer son email Git.
+- `git config --global --list` : Afficher la configuration Git.
+- `mkdir nodejs` : Créer le dossier du projet.
+- `cd nodejs` : Entrer dans le dossier du projet.
+- `npm init -y` : Initialiser le projet Node.js (`package.json`).
+- `npm install express` : Installer le framework Express.
+- `npm start` : Démarrer le serveur localement.
+- `git init` : Initialiser le dépôt Git local.
+- `git status` : Vérifier l'état des fichiers.
+- `git add .` : Préparer tous les fichiers pour le commit.
+- `git commit -m "init"` : Enregistrer le commit avec un message.
+- `git branch -M main` : Renommer la branche principale en `main`.
+- `git remote add origin https://github.com/FadiChraiti/TPCICD.git` : Associer le dépôt local à GitHub.
+- `git remote -v` : Vérifier le lien vers GitHub.
+- `git push -u origin main` : Envoyer les commits sur GitHub.
