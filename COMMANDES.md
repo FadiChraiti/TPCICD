@@ -19,3 +19,6 @@
 - `git remote add origin https://github.com/FadiChraiti/TPCICD.git` : Associer le dépôt local à GitHub.
 - `git remote -v` : Vérifier le lien vers GitHub.
 - `git push -u origin main` : Envoyer les commits sur GitHub.
+- `git add .github/workflows/cicd.yml` : Ajouter le fichier de workflow GitHub Actions.
+- `git commit -m "ci: add job-1"` : Enregistrer le premier job du pipeline CI/CD.
+- `git push` : Envoyer le workflow vers GitHub et déclencher l'action.
