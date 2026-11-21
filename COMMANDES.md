@@ -23,3 +23,4 @@
 - `git commit -m "ci: add job-1"` : Enregistrer le premier job du pipeline CI/CD.
 - `git push` : Envoyer le workflow vers GitHub et déclencher l'action.
 - `git commit -m "ci: add job-2, job-3 and job-4"` : Configurer le pipeline multi-jobs avec dépendances.
+- `git commit -m "test: break job-3"` : Simuler une erreur dans le job 3 (commande invalide lss).
